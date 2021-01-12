@@ -5,9 +5,11 @@
 
 .row__posters {
 	display: flex;
-	overflow-y: hidden;
 	overflow-x: scroll;
 	padding: 20px;
+}
+
+.single__poster {
 }
 
 .row__posters::-webkit-scrollbar {
@@ -38,6 +40,7 @@
 
 .movie__title {
 	color: white;
+	text-align: center;
 }
 
 /* .youtube__container {
